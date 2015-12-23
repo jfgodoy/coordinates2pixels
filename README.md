@@ -11,15 +11,15 @@ npm install --save coordinates2pixels
 
 function | description
 ---|---
-lng2pixel(lng, zoom) | converts longitude to pixels coordinates (return a float).
-lat2pixel(lat, zoom) | converts latitude to pixels coordinates (return a float).
-pixel2lng(x, zoom) | converts x to geographic coordinates.
-pixel2lat(y, zoom) | converts y to geographic coordinates.
+`lng2pixel(lng, zoom)` | converts longitude to pixels coordinates (return a float).
+`lat2pixel(lat, zoom)` | converts latitude to pixels coordinates (return a float).
+`pixel2lng(x, zoom)` | converts x to geographic coordinates.
+`pixel2lat(y, zoom)` | converts y to geographic coordinates.
 
 # Usage
 see `example/square.js`
 
-```
+```javascript
 var coords = require('coordinates2pixels');
 
 // create a square around the coordinates
