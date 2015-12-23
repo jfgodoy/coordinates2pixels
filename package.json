@@ -1,0 +1,25 @@
+{
+  "name": "coordinates2pixels",
+  "version": "1.0.0",
+  "description": "converts coordinates in format EPSG:4326 to pixel coordinates",
+  "homepage": "https://github.com/jfgodoy/coordinates2pixels",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jfgodoy/coordinates2pixels.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "keywords": [
+    "coordinates",
+    "pixel",
+    "EPSG:4326"
+  ],
+  "author": "Jorge Godoy <godoy.jf@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "2.3.4",
+    "should": "8.0.2"
+  }
+}
